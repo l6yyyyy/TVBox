@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory android:title="网络设置">
+        <EditTextPreference
+            android:key="proxy_url"
+            android:title="代理服务器"
+            android:summary="输入代理服务器地址"
+            android:defaultValue=""
+            android:inputType="textUri" />
+
+        <EditTextPreference
+            android:key="doh_url"
+            android:title="DoH服务器"
+            android:summary="输入DoH服务器地址"
+            android:defaultValue=""
+            android:inputType="textUri" />
+
+        <SwitchPreferenceCompat
+            android:key="ad_block_enabled"
+            android:title="广告拦截"
+            android:summary="开启广告拦截"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="数据源设置">
+        <EditTextPreference
+            android:key="data_source_url"
+            android:title="数据源地址"
+            android:summary="输入数据源配置文件地址"
+            android:defaultValue=""
+            android:inputType="textUri" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="播放器设置">
+        <SwitchPreferenceCompat
+            android:key="auto_play"
+            android:title="自动播放"
+            android:summary="开启自动播放"
+            android:defaultValue="true" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="关于">
+        <Preference
+            android:key="about"
+            android:title="关于TVBox"
+            android:summary="版本 1.0.0" />
+
+        <Preference
+            android:key="update"
+            android:title="检查更新"
+            android:summary="检查是否有新版本" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

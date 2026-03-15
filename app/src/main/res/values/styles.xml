@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="Theme.TVBox" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/colorBackground</item>
+        <item name="android:colorBackground">@color/colorBackground</item>
+        <item name="android:textColor">@color/colorOnBackground</item>
+        <item name="android:colorSurface">@color/colorSurface</item>
+        <item name="android:colorOnSurface">@color/colorOnSurface</item>
+    </style>
+
+    <!-- Leanback theme for TV -->
+    <style name="Theme.TVBox.Leanback" parent="Theme.Leanback">
+        <!-- Customize your Leanback theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/colorBackground</item>
+        <item name="android:colorBackground">@color/colorBackground</item>
+        <item name="android:textColor">@color/colorOnBackground</item>
+        <item name="android:colorSurface">@color/colorSurface</item>
+        <item name="android:colorOnSurface">@color/colorOnSurface</item>
+    </style>
+
+</resources>
